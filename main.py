@@ -15,6 +15,12 @@ def print_hi(name):
 a=10
 print(a)
 a.imag
+
+#20210909 List
+squares = [1,4,9,16,25]
+print(squares[0])
+print(squares[-3:])#리스트 뒤로꺼내기 역방향으로 진행
+print(squares[:])
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
