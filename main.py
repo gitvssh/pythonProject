@@ -10,6 +10,7 @@ def print_hi(name):
 #python 주석
 """
 이건 주석블럭
+주석 2
 """
 
 a=10
