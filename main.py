@@ -15,7 +15,10 @@ def print_hi(name):
 
 a=10
 print(a)
-a.imag
+
+b=20
+c=a/b
+print(c)
 
 #20210909 List
 squares = [1,4,9,16,25]
