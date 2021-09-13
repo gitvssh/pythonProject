@@ -12,8 +12,8 @@ def print_hi(name):
 이건 주석블럭
 주석 2
 """
-
-a=10
+a=5000%3
+print("a : ")
 print(a)
 
 b=20
@@ -28,5 +28,10 @@ print(squares[:])
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+
+watch = 100000
+book = 30000
+
+print(watch+book)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
