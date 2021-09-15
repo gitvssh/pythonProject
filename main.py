@@ -20,6 +20,8 @@ b=20
 c=a/b
 print(c)
 
+print(type(10))
+
 #20210909 List
 squares = [1,4,9,16,25]
 print(squares[0])
