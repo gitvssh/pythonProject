@@ -56,8 +56,8 @@ class Human:
 
 
 hum = Human
-hum.walk()
-
+hum.walk(hum)
+hum.run(hum)
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
