@@ -55,9 +55,9 @@ class Human:
         print("run")
 
 
-hum = Human
-hum.walk(hum)
-hum.run(hum)
+hum = Human()
+hum.walk()
+hum.run()
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
