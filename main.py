@@ -60,4 +60,8 @@ hum.walk()
 hum.run()
 
 
+
+
+#import numpy as np
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
