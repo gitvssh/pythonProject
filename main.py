@@ -50,7 +50,7 @@ abc(50)
 
 class Human:
     def walk(self):
-        print("walking")
+        print("he's animal, such a animal")
     def run(self):
         print("run")
 
