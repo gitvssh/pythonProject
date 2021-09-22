@@ -59,8 +59,8 @@ hum = Human()
 hum.walk()
 hum.run()
 
-
-
+g=a**b
+print(g)
 
 #import numpy as np
 
