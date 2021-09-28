@@ -42,7 +42,7 @@ f = 40
 def abc(f):
     c = 10
     d = 20
-    print(c + d+f)
+    print(c + d + f)
 
 
 abc(50)
@@ -51,17 +51,27 @@ abc(50)
 class Human:
     def walk(self):
         print("he's animal, such a animal")
+
     def run(self):
         print("run")
+
+
+class cat:
+    def walk(self):
+        print("cat cat cat")
+
+    def cry(self):
+        print("meow")
 
 
 hum = Human()
 hum.walk()
 hum.run()
 
-g=a**b
+
+g = a ** b
 print(g)
 
-#import numpy as np
+# import numpy as np
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
