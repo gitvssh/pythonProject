@@ -56,7 +56,7 @@ class Human:
         print("run")
 
 
-class cat:
+class Cat:
     def walk(self):
         print("cat cat cat")
 
@@ -67,6 +67,10 @@ class cat:
 hum = Human()
 hum.walk()
 hum.run()
+
+cat = Cat()
+cat.walk()
+cat.cry()
 
 
 g = a ** b
