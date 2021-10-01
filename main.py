@@ -38,6 +38,11 @@ book = 30000
 print(watch + book)
 f = 40
 
+test_list = ['one','two','three']
+for i in test_list:
+    print(i)
+
+
 
 def abc(f):
     c = 10
