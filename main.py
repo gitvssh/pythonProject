@@ -81,6 +81,16 @@ cat.cry()
 g = a ** b
 print(g)
 
+#help("modules")
+
+dct = dict(a=[1,2],b=[4,5])
+key = 'c'
+try:
+    print(dct[key])
+except:
+    print("Key %s is missing. Add it with empty value" % key)
+    dct['c'] = [4,5,6]
+
 # import numpy as np
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
