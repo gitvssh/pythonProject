@@ -91,6 +91,7 @@ except:
     print("Key %s is missing. Add it with empty value" % key)
     dct['c'] = [4,5,6]
 
+a = range(1,10)
 # import numpy as np
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
