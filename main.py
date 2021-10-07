@@ -97,6 +97,16 @@ a = range(1,10)
 
 print(a)
 
+class CatCat:
+    def meow(self):
+        print("meow")
+
+
+catcat = CatCat()
+
+catcat.meow()
+
+
 # import numpy as np
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
