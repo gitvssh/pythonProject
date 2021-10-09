@@ -100,12 +100,13 @@ print(a)
 class CatCat:
     def meow(self):
         print("meow")
-
+    def eat(self):
+        print("nyam")
 
 catcat = CatCat()
 
 catcat.meow()
-
+catcat.eat()
 
 # import numpy as np
 
