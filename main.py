@@ -107,6 +107,15 @@ catcat = CatCat()
 
 catcat.meow()
 catcat.eat()
+#list
+listType = [1,2,3]
+#tuple
+tupleType = (1,2,3)
+#dictionaly
+dicType = {'dad':'homer','mom':'marge','size':6}
+
+print(dicType['dad'])
+print(listType)
 
 # import numpy as np
 
