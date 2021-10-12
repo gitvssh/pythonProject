@@ -117,6 +117,13 @@ dicType = {'dad':'homer','mom':'marge','size':6}
 print(dicType['dad'])
 print(listType)
 
+lista = [1,2,3]
+tuplea = (1,2,3)
+dicttionarya = {'1':'b','2':'c'}
+
+print(lista)
+print(tuplea)
+print(dicttionarya[1])
 # import numpy as np
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
