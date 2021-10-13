@@ -121,9 +121,15 @@ lista = [1,2,3]
 tuplea = (1,2,3)
 dicttionarya = {'1':'b','2':'c'}
 
+
+for l in lista:
+    print(l)
+    print("파이썬")
+
+
 print(lista)
 print(tuplea)
-print(dicttionarya[1])
+print(dicttionarya['1'])
 # import numpy as np
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
