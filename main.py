@@ -45,16 +45,6 @@ for i in test_list:
     print(i)
 
 
-
-def abc(f):
-    c = 10
-    d = 20
-    print(c + d + f)
-
-
-abc(50)
-
-
 class Human:
     def walk(self):
         print("he's animal, such a animal")
