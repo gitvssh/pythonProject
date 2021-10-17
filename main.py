@@ -121,6 +121,10 @@ for l in lista:
 print(lista)
 print(tuplea)
 print(dicttionarya['1'])
+
+for l in lista:
+    print(l)
+    print("파파파")
 # import numpy as np
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
