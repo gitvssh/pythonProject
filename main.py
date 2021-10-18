@@ -2,8 +2,6 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-import pandas as pd
-import numpy as np
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -126,5 +124,17 @@ for l in lista:
     print(l)
     print("파파파")
 # import numpy as np
+
+class testClass:
+    def __init__(self):
+        self.abc = "0"
+    def fire(self):
+        print("fire")
+    def abs(self):
+        print("abc" + self.abc)
+
+t = testClass();
+t.abs()
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
