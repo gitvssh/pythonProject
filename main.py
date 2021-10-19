@@ -39,7 +39,7 @@ book = 30000
 print(watch + book)
 f = 40
 
-test_list = ['one','two','three']
+test_list = ['one', 'two', 'three']
 for i in test_list:
     print(i)
 
@@ -68,53 +68,53 @@ cat = Cat()
 cat.walk()
 cat.cry()
 
-
 g = a ** b
 print(g)
 
-#help("modules")
+# help("modules")
 
-dct = dict(a=[1,2],b=[4,5])
+dct = dict(a=[1, 2], b=[4, 5])
 key = 'c'
 try:
     print(dct[key])
 except:
     print("Key %s is missing. Add it with empty value" % key)
-    dct['c'] = [4,5,6]
+    dct['c'] = [4, 5, 6]
 
-a = range(1,10)
+a = range(1, 10)
 
 print(a)
+
 
 class CatCat:
     def meow(self):
         print("meow")
+
     def eat(self):
         print("nyam")
+
 
 catcat = CatCat()
 
 catcat.meow()
 catcat.eat()
-#list
-listType = [1,2,3]
-#tuple
-tupleType = (1,2,3)
-#dictionaly
-dicType = {'dad':'homer','mom':'marge','size':6}
+# list
+listType = [1, 2, 3]
+# tuple
+tupleType = (1, 2, 3)
+# dictionaly
+dicType = {'dad': 'homer', 'mom': 'marge', 'size': 6}
 
 print(dicType['dad'])
 print(listType)
 
-lista = [1,2,3]
-tuplea = (1,2,3)
-dicttionarya = {'1':'b','2':'c'}
-
+lista = [1, 2, 3]
+tuplea = (1, 2, 3)
+dicttionarya = {'1': 'b', '2': 'c'}
 
 for l in lista:
     print(l)
     print("파이썬")
-
 
 print(lista)
 print(tuplea)
@@ -123,18 +123,23 @@ print(dicttionarya['1'])
 for l in lista:
     print(l)
     print("파파파")
+
+
 # import numpy as np
+
+def fire():
+    print("fire")
+
 
 class testClass:
     def __init__(self):
         self.abc = "0"
-    def fire(self):
-        print("fire")
+
     def abs(self):
         print("abc" + self.abc)
 
+
 t = testClass();
 t.abs()
-
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
