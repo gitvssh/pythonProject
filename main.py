@@ -26,3 +26,7 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 # help("modules")
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+a = 10
+b = "a"
+print(a,b)
