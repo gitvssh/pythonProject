@@ -34,9 +34,10 @@ b = "a"
 print(a, b)
 
 
-def abc(t, d):
+def abc(t=3, d=5):
     print(t)
     print(d)
 
 
 abc(1, 2)
+abc()
