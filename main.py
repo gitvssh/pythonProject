@@ -44,38 +44,3 @@ def abc(t=3, d=5):
 # abc(1, 2)
 # abc()
 
-import numpy as np
-import pandas as pd
-
-xm = np.array(range(1, 13)).reshape(2, 6)
-print(xm)
-xm2 = np.insert(xm, 2, np.array([10, 20]), axis=1)
-print(xm2)
-
-
-def mywage(workingHours):
-    print("Working hours is ",workingHours," Hours")
-    normalHour = 40
-    pay = 1
-    overtimePay = 0.5
-    salary = workingHours * pay
-    if workingHours > normalHour:
-        print("this week is overwork!")
-        additionalPay = (workingHours - normalHour) * overtimePay
-        print("overhour : ",(workingHours - normalHour),"add pay : ",additionalPay)
-        salary = salary + additionalPay
-    print("Total salary : ",salary," won")
-    print()
-
-
-mywage(26)
-mywage(50)
-mywage(80)
-
-class example:
-    def __init__(self,name):
-        self.name = name
-    def a(self):
-        print("Hello ",self.name," !")
-    def b(self):
-        print("Good-bye ",self.name," !")
