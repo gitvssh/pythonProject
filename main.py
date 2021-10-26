@@ -40,7 +40,7 @@ def abc(t=3, d=5):
     print(t)
     print(d)
 
-
+abc(59)
 # abc(1, 2)
 # abc()
 
