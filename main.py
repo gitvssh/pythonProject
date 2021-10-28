@@ -29,7 +29,7 @@ if __name__ == '__main__':
 # help("modules")
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-a = 10
+tClass = 10
 b = "a"
 
 
@@ -42,7 +42,7 @@ def abc(t=3, d=5):
 
 
 class testClass:
-    def testClase(self):
+    def testClass(self):
         pass
 
     def __init__(self, attr1="basic1", attr2="basic2"):
@@ -58,10 +58,10 @@ class testClass:
         self.attr1 = attr1
 
 
-a = testClass()
-a.print("a")
-a.set1("set1")
-a.print("b")
+tClass = testClass()
+tClass.print("a")
+tClass.set1("set1")
+tClass.print("b")
 
 abc(59)
 # abc(1, 2)
