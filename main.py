@@ -63,6 +63,10 @@ tClass.print("a")
 tClass.set1("set1")
 tClass.print("b")
 
+pList = [1, 2, 3]
+
+print(pList)
+
 abc(59)
 # abc(1, 2)
 # abc()
