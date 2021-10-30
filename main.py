@@ -64,8 +64,9 @@ tClass.set1("set1")
 tClass.print("b")
 
 pList = [1, 2, 3]
-
-print(pList)
+pTuple = (1, 2, 3)
+print(pList[:2])
+print(pTuple[2])
 
 abc(59)
 # abc(1, 2)
