@@ -24,7 +24,7 @@ python 주석
   if
 예외처리
 """
-"""
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
@@ -73,12 +73,3 @@ print(pTuple[2])
 abc(59)
 # abc(1, 2)
 # abc()
-"""
-import numpy as np
-import pandas as pd
-
-pima2 = pd.read_csv("E:/R/wd/pima2.csv")
-gstats = pima2.groupby("diabetes").describe()
-
-import seaborn as sns
-sns.boxplot(data=gstats)
