@@ -71,5 +71,3 @@ pDict = {"a":"b", "c":10, "d":40}
 print(pList[:2])
 print(pTuple[2])
 print(pDict["a"])
-# abc(1, 2)
-# abc()
