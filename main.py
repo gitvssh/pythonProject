@@ -64,7 +64,3 @@ tClass = testClass()
 tClass.print("a")
 tClass.set1("set1")
 tClass.print("b")
-
-pList = [1, 2, 3]
-pTuple = (1, 2, 3)
-pDict = {"a":"b", "c":10, "d":40}
