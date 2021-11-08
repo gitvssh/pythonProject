@@ -59,8 +59,14 @@ class testClass:
     def set1(self, attr1):
         self.attr1 = attr1
 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
-tClass = testClass()
-tClass.print("a")
-tClass.set1("set1")
-tClass.print("b")
+z = np.linspace(-1, 1, 100)
+w = np.sqrt(1-z**2)
+print(w)
+x = np.linspace(0, 2, 100)
+plt.figure()
+plt.plot(x, x, label='linear')
+plt.show()
