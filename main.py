@@ -60,9 +60,14 @@ class testClass:
         self.attr1 = attr1
 
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
 
+dictData = {'a':1, 'b':2, 'c':3}
+seriesData = pd.Series(dictData)
+print(seriesData)
+
+"""
 z = np.linspace(-1, 1, 100)
 w = np.sqrt(1-z**2)
 print(w)
@@ -70,4 +75,4 @@ x = np.linspace(0, 2, 100)
 plt.figure()
 plt.plot(x)
 plt.show()
-#1
+"""
