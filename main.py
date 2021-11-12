@@ -63,10 +63,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dictData = {'a':1, 'b':2, 'c':3}
-seriesData = pd.Series(dictData)
-print(seriesData)
-
 """
 z = np.linspace(-1, 1, 100)
 w = np.sqrt(1-z**2)
