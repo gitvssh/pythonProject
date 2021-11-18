@@ -58,12 +58,3 @@ class testClass:
 
     def set1(self, attr1):
         self.attr1 = attr1
-
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-
-z = np.linspace(-1, 1, 100)
-x = np.linspace(0, 2, 100)
-plt.figure()
-plt.plot(x)
