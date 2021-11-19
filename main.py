@@ -42,19 +42,3 @@ def abc(t=3, d=5):
     print(t)
     print(d)
 
-
-class testClass:
-    def testClass(self):
-        pass
-
-    def __init__(self, attr1="basic1", attr2="basic2"):
-        self.attr2 = attr2
-        self.attr1 = attr1
-        print("initiating")
-
-    def print(self, msg="basic"):
-        print("print msg : ", msg)
-        print("my attr is ", self.attr1, ",", self.attr2)
-
-    def set1(self, attr1):
-        self.attr1 = attr1
