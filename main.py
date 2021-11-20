@@ -34,11 +34,3 @@ if __name__ == '__main__':
 tClass = 10
 b = "a"
 
-
-# print(a, b)
-
-
-def abc(t=3, d=5):
-    print(t)
-    print(d)
-
