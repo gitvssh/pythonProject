@@ -30,7 +30,3 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 # help("modules")
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-tClass = 10
-b = "a"
-
