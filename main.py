@@ -30,3 +30,9 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 # help("modules")
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+import numpy as np
+
+x = np.arange(4).reshape((2, 2))
+
+print(x)
