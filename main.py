@@ -29,4 +29,9 @@ python 주석
 if __name__ == '__main__':
     print_hi('PyCharm')
 # help("modules")
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/\
+
+x = 1
+b = "a"
+print(x)
+print(b)
