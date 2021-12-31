@@ -119,3 +119,5 @@ enqete_table.index = ["Gr1", "gr2", "Gr3", "Gr4"]
 grade_q1.plot.bar(stacked=True)
 plt.legend(title='Question1')
 plt.show()
+
+
