@@ -35,6 +35,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 score = pd.read_csv("E:/R/wd/score.csv")
+score = pd.read_csv("E:/R/wd/score.csv")
 print(score.head())
 print(score.shape)
 
