@@ -26,7 +26,7 @@ for i in range(1, len(line)):
 
 f.close()
 
-# read함수 테스트
+# read 함수 테스트
 f = open(tgtFile, 'r')
 data = f.read()
 print(data)
