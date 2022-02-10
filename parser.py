@@ -31,3 +31,8 @@ f = open(tgtFile, 'r')
 data = f.read()
 print(data)
 f.close()
+
+
+class Text:
+    def __init__(self):
+        self.name = "newFile"
