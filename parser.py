@@ -36,3 +36,10 @@ f.close()
 class Text:
     def __init__(self):
         self.name = "newFile"
+
+"""
+xml파일에서 설정 읽어와서 파싱 전략 선택하도록 DI 구현
+팩토리메서드 , 스트레티지 디자인패턴 적용하여 다양한 텍스트파일 처리할 수 있도록 구상
+dtd, f2f 처리 가능하도록 api 설계
+테스트케이스 작성할 것
+"""
