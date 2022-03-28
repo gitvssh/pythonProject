@@ -121,3 +121,5 @@ grade_q1.plot.bar(stacked=True)
 plt.legend(title='Question1')
 plt.show()
 
+
+
